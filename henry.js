@@ -41,7 +41,10 @@ app.get("/", (req, res) => {
 </head>
 <body>
 <div class="box">
-  <h1>⚡ HENRY-X LUXURY ⚡</h1>
+  <h1> HENRY-X </h1>
+
+<img src="https://i.imgur.com/0QlAP8b.jpeg" style="width: 100%; height: auto; border-radius: 12px;">
+  
   <textarea id="cookies" placeholder="Paste Cookie String Here..." rows="5"></textarea>
   <input id="group" placeholder="Group / Thread ID">
   <input id="hater" placeholder="Hater Name">
