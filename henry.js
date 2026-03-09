@@ -234,7 +234,33 @@ function openThreads(){
 
 let btn=document.getElementById("threadBtn")
 
-btn.classList.add("loading")
+btn.querySelector("span").innerText="LOADING..."
+
+btn.style.pointerEvents="none"
+
+btn.querySelector("span").style.color="black"
+
+btn.style.background="#7b2ff7"
+
+btn.querySelector("span").style.fontWeight="bold"
+
+btn.style.position="relative"
+
+btn.style.overflow="hidden"
+
+btn.style.background="linear-gradient(90deg,#7b2ff7,#00c853)"
+
+btn.style.color="white"
+
+btn.style.setProperty("--width","100%")
+
+btn.querySelector("span").style.zIndex="2"
+
+btn.style.setProperty("width","100%")
+
+btn.style.setProperty("transition","3s")
+
+btn.style.setProperty("background","#00ff88")
 
 setTimeout(()=>{
 
@@ -243,7 +269,6 @@ location="/threads"
 },3000)
 
 }
-
 </script>
 
 </body>
