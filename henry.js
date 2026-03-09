@@ -458,8 +458,7 @@ res.json({success:true})
 
 // ---------------- START SERVER ----------------
 
-server.listen(PORT,"0.0.0.0",()=>{
-
-console.log("HENRY-X PANEL RUNNING")
-
-})
+server.listen(PORT, "0.0.0.0", function() {
+  console.log("💜 HENRY-X LUXURY v2.2 running!");
+  console.log("🌐 Panel URL: http://localhost:" + PORT);
+});
